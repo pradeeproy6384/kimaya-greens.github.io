@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+   <head>
+     <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="css/my-style.css" rel="stylesheet" type="text/css">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Quicksand:300,400,500,700" rel="stylesheet">
+      <title>Sikka Kimaya Greens</title>
+      <style type="text/css">
+        body {
+        font-family: 'Hind Vadodara', sans-serif;
+        /* font-family: 'Playfair Display', serif; */
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #000;
+        background-image: url("./images/bg.jpg");
+        letter-spacing: .5px;
+        }
+         .thank-you-bg {
+         background-image: url("./images/thank-you.jpg");
+         background-size: 100%,100%;
+         height: 300px;
+         background-repeat: no-repeat;
+         position: relative;
+         }
+         .thank-you-bg:before {
+         position: absolute;
+         content: "";
+         background: #0054875e;
+         width: 100%;
+         height: 100%;
+         }
+         .thank-you-ttl {
+         color: #fff;
+         font-size: 26px;
+         font-family: 'Open Sans',sans-serif;
+         font-weight: 700;
+         }
+         .t-number {color:#ef9b16;}
+         .thank-you-sub {
+         color: #fff;
+         font-size: 15px;
+         font-weight: 500;
+         }
+         .thank-you-message {
+         margin: 25px auto;
+         }
+         .thank-you-content {
+         display: block;
+         text-align: center;
+         margin: 10px 0;
+         padding: 15px 0;
+         border-bottom: groove #dfdfdf 1px;
+         }
+         .mid-ttl {
+         color: #fff;
+         font-size: 30px;
+         font-family: 'Open Sans',sans-serif;
+         font-weight: 700;
+         }
+         .mid-sub {
+         color: #fff;
+         font-size: 20px;
+         font-weight: 600;
+         line-height: 1.5;
+         }
+         .thank-you-addr-box {
+         text-align: center;
+         }
+         .thank-add-ttl {
+         font-weight: bold;
+         font-size: 20px;
+         font-family: 'Open Sans',sans-serif;
+         margin: 15px 0;
+         color: #eee;
+         }
+         .thank-you-addr-box ul {
+         padding: 5px;
+         list-style: none;
+         }
+         .thank-you-addr-box ul li {
+         display: inline-block;
+         }
+         a.thank-email {
+         color: #005487;
+         font-weight: 600;
+         font-size: 16px;
+         font-family: 'Open Sans',sans-serif;
+         }
+         a.thank-back {
+         cursor: pointer;
+         color: #ef9b16 !important;
+         font-size: 15px;
+         font-weight: 600;
+         text-transform: uppercase;
+         font-family: 'Open Sans',sans-serif;
+         }
+         @media(max-width:767px) {
+         .thank-you-bg {
+         height: 300px;
+         background-size: cover;
+         background-position: center;
+         max-height: 100%;
+         }
+         .thank-you-mid.gps {
+         padding-top: 30px;
+         }
+         .mid-sub {
+         font-weight: normal;
+         padding-bottom: 30px;
+         }
+         .mid-ttl {
+         font-size: 25px;
+         font-weight: 600;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="thank-you-bg">
+         <div class="container">
+            <div class="row justify-content-end">
+               <div class="col-md-3">
+                  <div class="thank-you-message">
+                     <!-- <h1 class="thank-you-ttl">HELPING YOU FIND  </h1>
+                        <h3 class="thank-you-sub">the Office of your dreams...</h3> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- // -->
+      <div class="thank-you-mid mt-3">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="thank-you-content">
+                     <!-- <h2 class="mid-ttl">Thank you for your request.</h2> -->
+                     <h4 class="mid-sub">A member of our team will contact you within 24 Business Hours.<span class="d-block">
+                        If you need immediate assistance, please call <span class="t-number">&nbsp; +91 9289 058 596</span></span>
+                     </h4>
+                  </div>
+                  <div class="thank-you-addr-box">
+                     <h6 class="thank-add-ttl">you can either</h6>
+                     <ul>
+                        <li><a href="http://www.kimayagreens.com/" class="thank-back"><span>Visit our Website</span></a></li>
+                        <br>
+                        <li><a class="thank-back" onclick="goBack()">Back to Page</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- // -->
+      <!-- Optional JavaScript -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script>
+         function goBack() {
+         window.history.back()
+         }
+      </script>
+   </body>
+</html>

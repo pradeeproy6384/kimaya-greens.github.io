@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^kimayagreens.com [NC]
+RewriteRule ^(.*)$ http://www.kimayagreens.com/$1 [L,R=301]
+
+
+
+
+
